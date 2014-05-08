@@ -32,9 +32,10 @@ public class hostnametoIPappw {
 			public void run() {
 				try {
 					hostnametoIPappw window = new hostnametoIPappw();
+					
+					window.frame.setLocationRelativeTo(null);
 					window.frame.setVisible(true);
-					/** window.frame.setSize(400,250); **/
-				} catch (Exception e) {
+					} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
